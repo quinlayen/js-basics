@@ -33,9 +33,15 @@ greet(person.name);
  * (there are 6 different data types);
  */
 
-var dataTypes = ['boardgames', 250, true, null, undefined, {} ];
+var dataTypes = ['boardgames', 250, true, null, undefined, {}];
 
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
  */
+var dog = {
+    bark: function(){
+    console.log('woof');
+    },
+    name: 'Spot'
+};
