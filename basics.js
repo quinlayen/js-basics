@@ -27,9 +27,13 @@ if (person.age >= 16) {
      console.log('Hello, my name is ' + name);
  }
 greet(person.name);
+
+
 /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
  */
+
+var dataTypes = ['boardgames', 250, true, null, undefined, {} ];
 
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
