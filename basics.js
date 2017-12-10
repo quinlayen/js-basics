@@ -14,12 +14,19 @@ var person = {
 /* Create a variable called `canDrive`,
  * if it should be true if your person object is at least 16 years old
  */
+var canDrive  = false;
+if (person.age >= 16) {
+    canDrive = true;
+}
 
 /* Create a function called `greet`,
  * it should take a 1 parameter, `name`
  * and it should print "Hello, my name is {name}"
  */
-
+ function greet(name){
+     console.log('Hello, my name is ' + name);
+ }
+greet(person.name);
 /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
  */
